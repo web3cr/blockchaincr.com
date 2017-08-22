@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Blockchain Costa Rica</title>
-    <link>https://blockchaincr.com/tags/hugo/index.xml</link>
+    <link>/blkcr.github.io/tags/hugo/index.xml</link>
     <description>Recent content in Hugo on Blockchain Costa Rica</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <atom:link href="https://blockchaincr.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blkcr.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://blockchaincr.com/post/hugoisforlovers/</link>
+      <link>/blkcr.github.io/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://blockchaincr.com/post/hugoisforlovers/</guid>
+      <guid>/blkcr.github.io/post/hugoisforlovers/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -23,7 +23,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://blockchaincr.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;blkcr.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 

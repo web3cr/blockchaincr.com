@@ -2,100 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blockchaincr.com/post/creating-a-new-theme/</loc>
+    <loc>/blkcr.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/post/migrate-from-jekyll/</loc>
+    <loc>/blkcr.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/about/</loc>
+    <loc>/blkcr.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/post/goisforlovers/</loc>
+    <loc>/blkcr.github.io/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/post/hugoisforlovers/</loc>
+    <loc>/blkcr.github.io/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/</loc>
+    <loc>/blkcr.github.io/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/categories/</loc>
+    <loc>/blkcr.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/development/</loc>
+    <loc>/blkcr.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/categories/development/</loc>
+    <loc>/blkcr.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/contact/</loc>
+    <loc>/blkcr.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/go/</loc>
+    <loc>/blkcr.github.io/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/golang/</loc>
+    <loc>/blkcr.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/categories/golang/</loc>
+    <loc>/blkcr.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/hugo/</loc>
+    <loc>/blkcr.github.io/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/post/</loc>
+    <loc>/blkcr.github.io/post/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/</loc>
+    <loc>/blkcr.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/templates/</loc>
+    <loc>/blkcr.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blockchaincr.com/tags/themes/</loc>
+    <loc>/blkcr.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
