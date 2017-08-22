@@ -41,7 +41,7 @@ languageCode = "es-es"
     enable = true
     title = "Qué es Blockchain?"
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=TtNPF1gCiXk"
+    url = "https://www.youtube.com/watch?v=TtNPF1gCiXk&rel=0"
 
   # Services section
   [params.services]
