@@ -1,0 +1,69 @@
+{
+  "name": "blockchaincr.com",
+  "version": "1.0.0",
+  "description": "Blockchain Costa Rica",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:css && npm run build:js && npm run build:img",
+    "minify": "parallelshell 'npm run minify:css' 'npm run minify:js'",
+    "watch": "parallelshell 'npm run watch:css' 'npm run watch:js' 'npm run watch:img'",
+    "start": "parallelshell 'npm run watch:css' 'npm run watch:js' 'npm run watch:img' 'hugo server -D'",
+    "test": "standard",
+    "deploy": "hugo -d public/ && gulp deploy",
+    "predeploy": "npm run build && npm run minify",
+    "prestart": "npm run build",
+    "prebuild:css": "node-sass static-src/css/ -o static/css",
+    "build:css": "postcss --use autoprefixer -b 'last 2 versions' < static/css/styles.css -o static/css/styles.css",
+    "build:js": "browserify static-src/js/index.js -o static/js/bundle.js",
+    "build:img": "gulp optimize-images",
+    "minify:js": "uglifyjs static/js/bundle.js -c -o static/js/bundle.js",
+    "minify:css": "cleancss static/css/styles.css -o static/css/styles.css",
+    "prewatch": "npm run build",
+    "watch:css": "onchange './static-src/css/' -- npm run build:css",
+    "watch:js": "onchange './static-src/js/' -- npm run build:js",
+    "watch:img": "onchange './static-src/img/' -- npm run build:img"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaboesquivel/fasthugo.git"
+  },
+  "author": "@gaboesquivel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaboesquivel/fasthugo/issues"
+  },
+  "homepage": "https://github.com/gaboesquivel/fasthugo#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browserify": "^14.4.0",
+    "clean-css-cli": "^4.1.6",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-cli": "^1.4.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "node-sass": "^4.5.3",
+    "onchange": "^3.2.1",
+    "parallelshell": "^3.0.1",
+    "postcss": "^6.0.8",
+    "standard": "^10.0.3",
+    "uglify-es": "^3.0.27"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^2.1.4",
+    "magnific-popup": "^1.1.0",
+    "simple-line-icons": "^2.4.1"
+  },
+  "standard": {
+    "ignore": [
+      "/static-src/js/libs"
+    ],
+    "globals": [
+      "$",
+      "jQuery"
+    ]
+  }
+}

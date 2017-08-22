@@ -1,0 +1,134 @@
+# Page settings
+baseurl = "https://blockchaincr.com"
+title = "Blockchain Costa Rica"
+languageCode = "es-es"
+
+[params]
+  # Meta
+  author = "gaboesquivel.com"
+  description = "Blockchain Costa Rica"
+  email = ""
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Consultoría"
+    description = "Hemos desarrollado las capacidades estratégicas y de implementación necesarias para ayudar a las instituciones y empresas a aprovechar esta tecnología transformadora."
+    url = "#"
+    button = "Contáctanos"
+    icon = "fa fa-suitcase"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Capacitación"
+    description = "Talleres y cursos de formación que te permitirán explorar los próximos retos y oportunidades que ofrecen las tecnologías de bloques y su impacto en el orden social, económico y político actual."
+    url = "#"
+    button = "Ver más"
+    icon = "fa fa-cubes"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Meetups"
+    description = "Eventos de networking abiertos enfocados en la tecnología blockchain y divisas digitales para discutir las últimas noticias, desarrollos y tendencias dentro de la industria."
+    url = "#"
+    button = "Únete"
+    icon = "fa fa-users"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Qué es Blockchain?"
+    icon = "icon-play2"
+    url = "https://www.youtube.com/watch?v=TtNPF1gCiXk"
+
+  # Services section
+  [params.services]
+    enable = true
+
+    [[params.services.item]]
+      title = "Banca y Finanzas"
+      description = "Pagos, mercados de capital, finanzas comerciales, complimiento y auditoría, conozca su cliente, anti-lavado, seguros y transacciones de punto a punto."
+      icon = "fa fa-university"
+
+    [[params.services.item]]
+      title = "Internet de las cosas"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "fa fa-connectdevelop"
+
+    [[params.services.item]]
+      title = "Empresas"
+      description = "Logística & gestión de activos, cadenas de suministros, salud, media, energía ..."
+      icon = "fa fa-truck"
+
+      [[params.services.item]]
+      title = "Gobierno"
+      description = "Manejo de Registros, Manejo de Identidad, Votaciones, Impuestos, Transparencia de Gobierno,  Legislación, Cumplimiento y regulación."
+      icon = "fa fa-id-card"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Equipo"
+    description = "Nuestro equipo de líderes experimentados de negocios, producto y tecnología."
+
+    [[params.about.item]]
+      name = "Uriel Herrera"
+      position = "Business Intelligence"
+      description = "Blockchain / IoT / Inteligencia Artificial. Creo fervientemente que la combinación de estas tecnologías puede sentar un antes y un después en la manera en que comprendemos el mundo."
+      img = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAqNAAAAJDQzYzVmYTlkLTFjZWYtNDIzMC05Yjg0LWJkNWU2MTZkZDA3Yw.jpg"
+      alt = "Uriel Herrera"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Gabo Esquivel"
+      position = "Fintech"
+      description = "Desarollador de software especializándose en la construcción de soluciones en para servicios financieros utilizando en computación en la nube, arquitecturas serverless y código abierto."
+      img = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdKAAAAJDNlMGJhZWZhLTFjZDUtNDY0ZC1iNmUzLWEwMDMwZWEzYTY1Yw.jpg"
+      alt = "Gabo Esquivel"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Walter Montes"
+      position = "Desarrollo de Producto"
+      description = "Pasó de la ingeniería y el liderazgo de los equipos de software al diseño centrado en el usuario de soluciones tecnológicas en torno a cloud, inteligencia artificial y plataformas abiertas."
+      img = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAsGAAAAJGQ4MGRlODM4LTk0NzQtNDJiYS1iYjlkLTBhMzNmMzk3MGJiYw.jpg"
+      alt = "Walter Montes"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    title = "Contáctanos"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "San José, Costa Rica"],
+        ["icon-phone", "6360-9999"],
+        ["icon-envelope", "info@blockchaincr.com"]
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Blockchain Costa Rica. All Rights Reserved. <br>Website por <a href="http://gaboesquivel.co/" target="_blank">gaboesquivel.com</a>'
