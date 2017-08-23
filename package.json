@@ -55,6 +55,7 @@
     "bootstrap-sass": "^3.3.7",
     "jquery": "^2.1.4",
     "magnific-popup": "^1.1.0",
+    "particles.js": "^2.0.0",
     "simple-line-icons": "^2.4.1"
   },
   "standard": {
