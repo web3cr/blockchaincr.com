@@ -14,8 +14,8 @@ languageCode = "es-es"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Consultoría"
-    description = "Hemos desarrollado las capacidades estratégicas y de implementación necesarias para ayudar a las instituciones y empresas a aprovechar esta tecnología transformadora."
+    title = "Investigación"
+    description = "Enfocados en el desarrollado de capacidades estratégicas y de implementación necesarias para ayudar a las instituciones y empresas a aprovechar esta tecnología transformadora."
     url = "#"
     button = "Contáctanos"
     icon = "fa fa-suitcase"
@@ -30,7 +30,7 @@ languageCode = "es-es"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Meetups"
+    title = "Eventos"
     description = "Eventos de networking abiertos enfocados en la tecnología blockchain y divisas digitales para discutir las últimas noticias, desarrollos y tendencias dentro de la industria."
     url = "#"
     button = "Únete"
