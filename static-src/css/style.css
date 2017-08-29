@@ -400,6 +400,15 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
 }
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #fh5co-home, #fh5co-home .text-wrap {
+      height: 700px;
+    }
+}
+
 #fh5co-home .text-wrap {
   display: table;
   width: 100%;
