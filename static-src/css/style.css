@@ -1421,4 +1421,12 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-/*# sourceMappingURL=style.css.map */
+.partner-logo{
+  max-width:100%;
+  max-height: 100px;
+  margin:0 auto;
+}
+.partner-logo-wrapper{
+  min-height: 100px;
+  display: block;
+}
