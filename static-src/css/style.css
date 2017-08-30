@@ -578,6 +578,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: block;
   float: left;
+  margin: 0 auto;
 }
 .watch-video span {
   display: block;
@@ -1429,4 +1430,19 @@ h1, h2, h3, h4, h5, h6 {
 .partner-logo-wrapper{
   min-height: 100px;
   display: block;
+}
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  margin: 0 auto;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
