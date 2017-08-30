@@ -407,6 +407,10 @@ h1, h2, h3, h4, h5, h6 {
     #fh5co-home, #fh5co-home .text-wrap {
       height: 700px;
     }
+    #fh5co-home .text-inner h2 {
+      font-size: 12px;
+      line-height: 14px;
+    }
 }
 
 #fh5co-home .text-wrap {

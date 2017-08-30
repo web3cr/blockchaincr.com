@@ -1,27 +1,46 @@
 	<section id="fh5co-intro">
 		<div class="container">
 			<div class="row row-bottom-padded-lg">
-				{{ range .Site.Params.intro.item }}
-				<div class="fh5co-block to-animate" style="background-image: url(img/{{ .img }});">
+				<div class="fh5co-block to-animate" style="background-image: url(img/img_7.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
-						<i class="fh5co-intro-icon {{ .icon }}"></i>
-						<h2>{{ .title }}</h2>
-						<p>{{ .description }}</p>
-						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+						<i class="fh5co-intro-icon fa fa-suitcase"></i>
+						<h2>Investigación</h2>
+						<p>Enfocados en el desarrollado de capacidades estratégicas y de implementación necesarias para ayudar a las instituciones y empresas a aprovechar esta tecnología transformadora.</p>
+						<p><a  data-nav-section="contact" class="btn btn-primary scroll-link">Contáctanos</a></p>
 					</div>
 				</div>
-				{{ end }}
+
+        <div class="fh5co-block to-animate" style="background-image: url(img/img_8.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon fa fa-cubes"></i>
+						<h2>Capacitación</h2>
+						<p>Talleres y cursos de formación que te permitirán explorar los próximos retos y oportunidades que ofrecen las tecnologías de bloques y su impacto en el orden social, económico y político actual.</p>
+						<p><a target="_blank" href="https://goo.gl/forms/p2coe23LFsZmiSym2" class="btn btn-primary">Me interesa</a></p>
+					</div>
+				</div>
+
+        <div class="fh5co-block to-animate" style="background-image: url(img/img_10.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon fa fa-users"></i>
+						<h2>Eventos</h2>
+						<p>Eventos de networking abiertos enfocados en la tecnología blockchain y divisas digitales para discutir las últimas noticias, desarrollos y tendencias dentro de la industria.</p>
+						<p><a target="_blank" href="https://meetup.com/BlockchainCR" class="btn btn-primary">Únete</a></p>
+					</div>
+				</div>
+
 			</div>
 
-			{{ if .Site.Params.intro.video.enable }}
 			<div class="row watch-video text-center to-animate">
 				<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
-				<span>{{.Site.Params.intro.video.title | markdownify }}</span>
+				<span>Qué es Blockchain?</span>
 
-				<a href="{{ .Site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i class="{{ .Site.Params.intro.video.icon | markdownify }}"></i></a>
+				<a href="https://www.youtube.com/watch?v=TtNPF1gCiXk&rel=0" class="popup-vimeo btn-video"><i class="icon-play2"></i></a>
 			</div>
-			{{ end }}
 		</div>
 	</section>
