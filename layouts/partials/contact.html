@@ -10,19 +10,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-6 to-animate">
-					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
-					<ul class="fh5co-contact-info">
-					{{ range .Site.Params.contact.details }}
-						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | markdownify }}{{ end }}</li>
-					{{ end }}
-					</ul>
-				</div>
-
-				<div class="col-md-6 to-animate">
+			<div class="row row-bottom-padded-md to-animate">
+        <div class="col-md-10 col-md-offset-1">
 					<h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>
-					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
+
+          <form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
@@ -47,12 +39,11 @@
 						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
 						{{ end }}
 					</div>
-					<div class="form-group ">
+					<div class="form-group" style="text-align:center;">
 						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
 					</div>
 					</form>
-				</div>
-
+        </div>
 			</div>
 		</div>
 	</section>

@@ -15,22 +15,22 @@ languageCode = "es-es"
 
     [[params.services.item]]
       title = "Banca y Finanzas"
-      description = "Pagos, mercados de capital, finanzas comerciales, complimiento y auditoría, conozca su cliente, anti-lavado, seguros y transacciones de punto a punto."
+      description = "Pagos, mercados de capital, finanzas comerciales, complimiento y auditoría, conozca su cliente, anti-lavado, seguros, ransacciones de punto a punto y más."
       icon = "fa fa-university"
 
     [[params.services.item]]
       title = "Internet de las cosas"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      description = "Comunicación maquína a maquína (M2M) intra e inter compañías, gestión de identidades, automatización de procesos industriales, picopagos en tiempo real y más."
       icon = "fa fa-connectdevelop"
 
     [[params.services.item]]
       title = "Empresas"
-      description = "Logística & gestión de activos, cadenas de suministros, salud, media, energía ..."
+      description = "Logística & gestión de activos, cadenas de suministros, salud, media, energía y más."
       icon = "fa fa-truck"
 
       [[params.services.item]]
       title = "Gobierno"
-      description = "Manejo de Registros, Manejo de Identidad, Votaciones, Impuestos, Transparencia de Gobierno,  Legislación, Cumplimiento y regulación."
+      description = "Manejo de registros, manejo de identidad, votaciones, impuestos, transparencia de gobierno, legislación, cumplimiento, regulación y más."
       icon = "fa fa-id-card"
 
   # About section
@@ -74,18 +74,18 @@ languageCode = "es-es"
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
       ]
+
   # Contact section
   [params.contact]
     enable = true
-    map = true
     title = "Contáctanos"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Nos interesa muchísimo escuchar tus ideas, consultas y comentarios. Déjamos un mensaje y te responderemos a la mayor brevedad posible."
 
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "San José, Costa Rica"],
-        ["icon-phone", "6360-9999"],
-        ["icon-envelope", "info@blockchaincr.com"]
+        # ["icon-phone", "6360-9999"],
+        # ["icon-envelope", "info@blockchaincr.com"]
       ]
 
     name = "Name"
