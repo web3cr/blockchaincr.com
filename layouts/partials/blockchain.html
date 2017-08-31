@@ -2,9 +2,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-left">
-					<h2 class=" left-border to-animate">BlOCKCHAIN</h2>
+					<h2 class=" left-border ">BlOCKCHAIN</h2>
 					<div class="row">
-						<div class="col-md-8 subtext to-animate">
+						<div class="col-md-8 subtext ">
 							<h3>Areas de aplicación y casos de uso de la tecnología de cadena de bloques</h3>
               </div>
 					</div>
@@ -12,8 +12,8 @@
 			</div>
 			<div class="row">
 			{{ range .Site.Params.services.item }}
-				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+				<div class="col-md-6 col-sm-6 fh5co-service ">
+					<i class="icon {{ .icon | markdownify }}"></i>
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .description | markdownify }}</p>
 				</div>

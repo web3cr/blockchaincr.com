@@ -575,7 +575,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .watch-video {
   text-align: center;
-  width: 100%;
+  width: 80%;
   display: block;
   float: left;
   margin: 0 auto;
@@ -640,6 +640,20 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-services, #fh5co-work, #fh5co-counters {
     padding: 4em 0;
   }
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #fh5co-services *,
+    #fh5co-about * {
+      text-align: center;
+
+    }
+    .left-border:after{
+      display: none !important;
+      opacity: 0;
+    }
 }
 
 #fh5co-services {
@@ -1374,6 +1388,7 @@ h1, h2, h3, h4, h5, h6 {
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
+
 
 .js .to-animate,
 .js .to-animate-2,
