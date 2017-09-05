@@ -1444,7 +1444,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .partner-logo-wrapper{
   min-height: 100px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .video-wrapper {
