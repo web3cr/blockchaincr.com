@@ -18,25 +18,25 @@
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
-						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
+						<input required id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					<div class="form-group ">
 						{{ with .Site.Params.contact.email }}
 						<label for="email" class="sr-only">{{ . | markdownify }}</label>
-						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
+						<input required id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
 						{{ end }}
 					</div>
 					<div class="form-group ">
 						{{ with .Site.Params.contact.phone }}
 						<label for="phone" class="sr-only">{{ . | markdownify }}</label>
-						<input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text">
+						<input required id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text">
 						{{ end }}
 					</div>
 					<div class="form-group ">
 						{{ with .Site.Params.contact.message }}
 						<label for="message" class="sr-only">{{ . | markdownify }}</label>
-						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
+						<textarea required id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
 						{{ end }}
 					</div>
 					<div class="form-group" style="text-align:center;">
