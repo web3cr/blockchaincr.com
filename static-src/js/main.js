@@ -455,10 +455,10 @@
 		introAnimate();
 		//workAnimate();
 		//testimonialAnimate();
-		servicesAnimate();
+		//servicesAnimate();
 		aboutAnimate();
 		//countersAnimate();
-		contactAnimate();
+		//contactAnimate();
 
 
 	});
