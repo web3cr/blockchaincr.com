@@ -6,7 +6,7 @@ languageCode = "es-es"
 [params]
   # Meta
   author = "gaboesquivel.com"
-  description = "Blockchain Costa Rica"
+  description = "Dedicados al estudio e implementación de la tecnología blockchain en sus diferentes áreas de aplicación."
   email = ""
 
   # Services section
