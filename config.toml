@@ -97,4 +97,4 @@ languageCode = "es-es"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Blockchain Costa Rica. All Rights Reserved. <br>Website por <a href="http://gaboesquivel.com/" target="_blank">gaboesquivel.com</a>'
+    copyright = '&copy; Blockchain Costa Rica. All Rights Reserved. <br>Website por <a href="http://gaboesquivel.com/" target="_blank" rel="noopener noreferrer">gaboesquivel.com</a>'
