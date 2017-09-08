@@ -15,7 +15,7 @@ languageCode = "es-es"
 
     [[params.services.item]]
       title = "Banca y Finanzas"
-      description = "Pagos, mercados de capital, finanzas comerciales, complimiento y auditoría, conozca su cliente, anti-lavado, seguros, ransacciones de punto a punto y más."
+      description = "Pagos, mercados de capital, finanzas comerciales, complimiento y auditoría, conozca su cliente, anti-lavado, seguros, transacciones de punto a punto y más."
       icon = "fa fa-university"
 
     [[params.services.item]]
