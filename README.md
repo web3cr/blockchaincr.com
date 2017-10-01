@@ -1,8 +1,6 @@
-# fasthugo
-Optimized Hugo Website/Blog Boilerplate based on [Start Bootstrap Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
+# blockchaincr.com
 
-![Screenshot](https://raw.githubusercontent.com/gaboesquivel/fasthugo/master/.images/theme.png)
-
+Static site build with [gaboesquivel/fasthugo](ttps://github.com/gaboesquivel/fasthugo)
 
 ## Contents
 
@@ -13,14 +11,6 @@ Optimized Hugo Website/Blog Boilerplate based on [Start Bootstrap Clean Blog](ht
 - [TODO](#todo)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Motivation
-
-Hugo static website generator is great for its build speed and simplicity compared to other static site generators. However it lacks of automated website optimizations for faster load times and better user experience. Hugo doesn't support sass out of the box.
-
-You can find a live demo of the default generated site at https://gaboesquivel.com/fasthugo
-
-_This is the first version of the boilerplate, all contributions are very welcome._
 
 ## Features
 
@@ -76,4 +66,4 @@ The MIT License (MIT).
 See [LICENSE](https://github.com/gaboesquivel/fasthugo/LICENSE) for more info
 
 ---
-Made with ♥ by [Gabo Esquivel](https://gaboesquivel.com) and [contributors](https://github.com/gaboesquivel/fasthugo/graphs/contributors)
+Made with ♥ by [Gabo Esquivel](https://gaboesquivel.com) and [contributors](https://github.com/blockchaincr/blockchaincr.github.io/graphs/contributors)
