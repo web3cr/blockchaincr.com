@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="331.77722"
+   height="92.922173"
+   id="svg3040"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Knowledge-Logo-Orange-Light.svg">
+  <defs
+     id="defs3042" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.3685315"
+     inkscape:cx="186.81707"
+     inkscape:cy="37.857991"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-177.33894,-477.53065)">
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.477;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3075"
+       width="390.53061"
+       height="144.9796"
+       x="147.96225"
+       y="451.50192" />
+    <g
+       id="g4016"
+       transform="translate(-171.17996,26.763881)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4266-2"
+         y="510.26996"
+         x="430.53482"
+         style="font-size:34.40214157px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:2.28614902px;word-spacing:0px;fill:#0079d9;fill-opacity:1;stroke:none;font-family:Gotham;-inkscape-font-specification:Gotham Bold"
+         xml:space="preserve"><tspan
+           dx="0 -2.261941 -2.4081495 -2.2447395 -1.2986809 -2.5027549 -1.6513029 -2.8123746 -2.8123746"
+           y="510.26996"
+           x="430.53482"
+           id="tspan4268-7"
+           sodipodi:role="line">KNOWLEDGE</tspan></text>
+      <g
+         transform="matrix(0.83310291,0,0,0.83310291,79.987544,82.985881)"
+         id="g3996">
+        <path
+           sodipodi:type="star"
+           style="color:#000000;fill:#2f3657;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.70000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3218"
+           sodipodi:sides="6"
+           sodipodi:cx="361.62924"
+           sodipodi:cy="165.40625"
+           sodipodi:r1="63.41711"
+           sodipodi:r2="27.491364"
+           sodipodi:arg1="0.78539816"
+           sodipodi:arg2="1.3089969"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 406.47191,210.24892 -61.25622,16.41355 -44.84267,-44.84266 16.41355,-61.25623 61.25623,-16.41355 44.84267,44.84266 z"
+           transform="matrix(0.66706646,-0.17689236,0.17689236,0.66706646,101.79877,450.86035)"
+           inkscape:transform-center-x="2.5872761"
+           inkscape:transform-center-y="-1.502699" />
+        <g
+           id="g4259-0"
+           transform="matrix(0.9075491,0,0,0.9075491,273.91352,8.9872684)">
+          <path
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             id="path4214-9"
+             d="m 110.32732,537.93747 -21.625468,-21.89698 -0.100412,43.48344 43.42851,0 z"
+             style="fill:#46e8ff;fill-opacity:1;stroke:none" />
+          <path
+             style="fill:#46e8ff;fill-opacity:1;stroke:none"
+             d="m 88.60029,516.11139 0,43.42097 43.42808,-43.42097 z"
+             id="path4216-3"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4221-6"
+             d="m 88.694196,516.11397 -0.09276,43.40996 21.667874,-21.64933 -21.500913,-21.76063 -0.0742,0 z"
+             style="fill:#00aeff;fill-opacity:1;stroke:none" />
+          <path
+             transform="translate(0,308.2677)"
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             id="path4226-0"
+             d="m 88.6875,207.78125 -0.09375,43.46875 21.77786,0 L 88.875,207.96875 z"
+             style="fill:#00aeff;fill-opacity:1;stroke:none" />
+          <path
+             transform="translate(0,308.2677)"
+             id="path4238-6"
+             d="m 88.6875,207.84375 -0.09375,43.40625 14.5625,-14.53125 -14.28125,-28.75 -0.125,-0.125 -0.0625,0 z"
+             style="fill:#0079d9;fill-opacity:1;stroke:none"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
