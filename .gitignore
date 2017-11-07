@@ -5,3 +5,4 @@ node_modules/
 static/css
 static/js
 static/img
+.DS_Store
